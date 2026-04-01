@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/awesome-ai-healthcare?style=social)](https://github.com/YOUR_USERNAME/awesome-ai-healthcare/stargazers)
+[![Stars](https://img.shields.io/github/stars/Norrisont/awesome-ai-healthcare?style=social)](https://github.com/Norrisont/awesome-ai-healthcare/stargazers)
 [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ---
@@ -435,4 +435,4 @@ Public domain. Use it, share it, build on it.
 
 ---
 
-*Maintained by [Morris Kimani](https://github.com/YOUR_USERNAME) and contributors · Last verified: April 2026*
+*Maintained by [Morris Kithinji](https://github.com/Norrisont) and contributors · Last verified: April 2026*
