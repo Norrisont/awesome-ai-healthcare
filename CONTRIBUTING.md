@@ -1,61 +1,92 @@
 # How to Contribute to Awesome AI for Healthcare
 
-Thank you for helping make this list better!
+Thank you for helping make this list better! Anyone can contribute — you do not need to be an expert.
 
 ---
 
-## How to add a resource
+## Who Should Contribute?
 
-1. **Fork this repo** — click Fork top right on GitHub
-2. 2. **Edit README.md** — add your resource in this format:
-  
-   3. ```markdown
+- A developer who found a free FHIR library or health API
+- - A researcher with a useful open dataset
+  - - A clinician who knows a helpful clinical tool
+    - - A startup founder sharing an open-source project
+     
+      - ---
+
+      ## How to Add a Resource
+
+      **Step 1 — Fork this repo**
+      Click the **Fork** button at the top right of this GitHub page.
+
+      **Step 2 — Edit README.md**
+      Find the right section and add your resource in this format:
+
+      ```
       - **[Tool Name](https://verified-link.com)** — One sentence on what it does.
         > *Why it matters: One sentence on real-world US healthcare impact.*
       ```
 
-      3. **Open a Pull Request** — title: `Add [Tool Name] to [Section Name]`
-     
-      4. ---
-     
-      5. ## Rules
-     
-      6. - Link must be verified and working
-         - - Tool must be free, open-source, or have a meaningful free tier
-           - - Must be relevant to US healthcare (HIPAA, Medicaid, FHIR, CMS)
-             - - Plain English only — no jargon
-               - - Actively maintained (last update within 2 years)
-                 - - No fully paid tools
-                   - - No self-promotion without `[Disclosure: I built this]`
-                    
-                     - ---
+      **Example:**
+      ```
+      - **[OpenEMR](https://www.open-emr.org/)** — Free, ONC-certified EHR used by thousands of US clinics.
+        > *Why it matters: The most accessible open-source EHR for community health centers.*
+      ```
 
-                     ## Writing Good Descriptions
+      **Step 3 — Open a Pull Request**
+      Click Contribute then Open Pull Request. Use a short title like:
+      `Add OpenEMR to EHR section`
 
-                     Good: "Reads chest X-rays and flags pneumonia. Free for research."
-                     Bad: "CNN-based pulmonary pathology detection inference engine."
+      We review and merge within a few days.
 
-                     Good: "Free, HIPAA-compliant EHR used by thousands of US clinics."
-                     Bad: "Enterprise-grade compliance-ready clinical SaaS platform."
+      ---
 
-                     ---
+      ## Rules
 
-                     ## Fixing Broken Links
+      - Link must be verified and working — test it before submitting
+      - - Tool must be free, open-source, or have a meaningful free tier
+        - - Must be relevant to US healthcare (HIPAA, Medicaid, FHIR, CMS)
+          - - Plain English only — no unexplained jargon
+            - - Must be actively maintained (last update within 2 years)
+              - - No fully paid commercial tools
+                - - No self-promotion without writing `[Disclosure: I built this]`
+                 
+                  - ---
 
-                     Fork the repo, fix the URL or remove the entry, then open a PR titled: Fix broken link: Tool Name
+                  ## Writing Good Descriptions
 
-                     ---
+                  Write plainly — as if explaining to someone who is not a developer.
 
-                     ## Suggesting New Sections
+                  | Good | Bad |
+                  |---|---|
+                  | Reads chest X-rays and flags pneumonia | CNN-based pulmonary pathology detection engine |
+                  | Free, HIPAA-compliant, used by 10,000+ US clinics | Enterprise-grade compliance-ready SaaS platform |
+                  | Connects your app to Medicare patient data | Federated CMS beneficiary attribution API |
 
-                     Open an Issue (not a PR), describe the section you want, and list 3–5 example resources you would include.
+                  ---
 
-                     ---
+                  ## Disclosing Your Own Projects
 
-                     ## Code of Conduct
+                  You are welcome to add your own open-source tools. Just add `[Disclosure: I built this]` at the end of your description so readers know.
 
-                     Respectful and constructive conversation only. No discrimination of any kind.
+                  ---
 
-                     ---
+                  ## Fixing Broken Links
 
-                     *Maintained by [Morris Kithinji](https://github.com/Norrisont) and contributors*
+                  Fork the repo, fix the URL or remove the entry, then open a PR titled:
+                  `Fix broken link: Tool Name`
+
+                  ---
+
+                  ## Suggesting New Sections
+
+                  Open an **Issue** (not a PR), describe the section you want, and list 3 to 5 example resources you would include.
+
+                  ---
+
+                  ## Code of Conduct
+
+                  Respectful and constructive conversation only. No discrimination of any kind.
+
+                  ---
+
+                  *Maintained by [Morris Kithinji](https://github.com/Norrisont) and contributors*
